@@ -1,0 +1,63 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.cookiesbox {
+	position: relative;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #d9d9d9;
+	width: 30%;
+	height: 20%;
+	left: 0px;
+	bottom: 0px;
+	border-radius: 12px;
+}
+
+main {
+	background: center/cover;
+	width: max-content;
+	width: 50%;
+	height: 50%;
+}
+
+.red {
+	position: absolute;
+	width: 40%;
+	height: 55%;
+	background-color: #ff0000;
+	right: 575px;
+	bottom: 350px;
+	border-radius: 12px;
+}
+
+.blue {
+	position: absolute;
+	width: 40%;
+	height: 55%;
+	background-color: #000dff;
+	right: 540px;
+	bottom: 325px;
+	border-radius: 12px;
+}
+.green {
+	position: absolute;
+	width: 40%;
+	height: 55%;
+	background-color: #00ff26;
+	right: 500px;
+	bottom: 300px;
+	border-radius: 12px;
+}
